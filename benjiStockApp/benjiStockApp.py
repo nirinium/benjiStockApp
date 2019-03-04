@@ -1,6 +1,8 @@
 import requests
 import time
 import pandas as pd
+import plotly
+
 #import PySimpleGUI as sg
 
 #def GUI():
