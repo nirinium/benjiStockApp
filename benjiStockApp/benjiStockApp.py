@@ -2,6 +2,7 @@ import requests
 import time
 import pandas as pd
 import plotly
+import csv
 
 #import PySimpleGUI as sg
 
@@ -20,6 +21,9 @@ def mainF():
 	    #Set time for website refresh to update stock numbers
 	    time.sleep(120)
 mainF()
+
+#exportCSVfile
+
 #Pressing Ctrl + C will stop the script from running
 #GUI()
 exit()
