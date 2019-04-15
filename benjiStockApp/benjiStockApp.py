@@ -4,11 +4,6 @@ import pandas as pd
 import plotly
 import csv
 
-#import PySimpleGUI as sg
-
-#def GUI():
-    #sg.PopupYesNo('Is this a popup?')
-
 def mainF():
     #Request sent for while loop
     r = requests.get("https://finance.yahoo.com/quote/%5EDJI/components/")
@@ -24,6 +19,5 @@ mainF()
 
 #exportCSVfile
 
-#Pressing Ctrl + C will stop the script from running
-#GUI()
+#Pressing Ctrl + C will kill the script
 exit()
